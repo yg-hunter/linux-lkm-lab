@@ -4,16 +4,15 @@
 make
 
 ## test
-- see ko info   
-    modinfo my_lkm.ko
-- watch the system log   
-        tailf /var/log/message  
-    or  
-        tail -f /var/log/message  
-- load ko to kernel  
-    insmod my_lkm.ko
+- see ko info    
+    modinfo my_lkm.ko  
+- watch the system log    
+       - tailf /var/log/message     
+       - tail -f /var/log/message   
+- load ko to kernel   
+    insmod my_lkm.ko  
 - unload ko  
-    rmmod my_lkm
+    rmmod my_lkm  
 
-## cleanup
-make clean
+## cleanup  
+make clean  
