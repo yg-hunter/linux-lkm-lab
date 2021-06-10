@@ -1,7 +1,6 @@
 #include "hook.h"
 
 #include <linux/module.h>
-
 #include <linux/delay.h> //msleep
 #include <linux/kprobes.h>
 #include <linux/file.h> //fget fput
